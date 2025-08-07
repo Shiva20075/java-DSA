@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class NumbersTriangle {
 
     public static void main(String[] args) {
+
         /**
          * The NumbersTriangle class prints a pyramid using  numbers.
          * if n = 4
@@ -12,6 +13,7 @@ public class NumbersTriangle {
          *  1234321
          */
 
+        System.out.print("ENTER A NUMBER -> ");
         Scanner userInput = new Scanner(System.in);
         int n = userInput.nextInt();
 
@@ -25,7 +27,7 @@ public class NumbersTriangle {
                 System.out.print(j);
             }
 
-            for( int m = i - 1; m >= 1; m--){
+            for( int m = i - 1 ; m >= 1; m--) {
                 System.out.print(m);
             }
         }
