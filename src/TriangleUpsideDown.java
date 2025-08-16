@@ -3,7 +3,18 @@ import java.util.Scanner;
 public class TriangleUpsideDown {
 
     /**
-     * This
+     * This class prints a triangle shape at upside and downside
+     * EX -> input is 5
+     *    *        *
+     *    **      **
+     *    ***    ***
+     *    ****  ****
+     *    **********
+     *    ****  ****
+     *    ***    ***
+     *    **      **
+     *    *        *
+     *
      * @param args
      */
     public static void main(String[] args) {
