@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 
 public class NumbersTriangle {
@@ -5,7 +7,7 @@ public class NumbersTriangle {
     public static void main(String[] args) {
 
         /**
-         * The NumbersTriangle class prints a pyramid using  numbers.
+         * The Patterns.NumbersTriangle class prints a pyramid using  numbers.
          * if n = 4
          *     1
          *    121
@@ -30,6 +32,31 @@ public class NumbersTriangle {
             for( int m = i - 1 ; m >= 1; m--) {
                 System.out.print(m);
             }
+        }
+    }
+
+    public static class NumberOfDigits {
+
+        public static void main(String[] args) {
+
+            /**
+             * This class count the no of digits (Integers) enterd by a user
+             *ex -> userInput = 1234
+             * output -> 4
+             */
+
+            Scanner s = new Scanner(System.in);
+            System.out.print("ENRER A NUMBER -> ");
+            int userInput = s.nextInt();
+            int numberCount = 0;
+
+
+            while(userInput > 0){
+
+                userInput = userInput/10;
+                numberCount++;
+            }
+            System.out.println("COUNT -> " + numberCount);
         }
     }
 }

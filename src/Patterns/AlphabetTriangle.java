@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 
 public class AlphabetTriangle {
@@ -5,7 +7,7 @@ public class AlphabetTriangle {
     public static void main(String[] args) {
 
         /**
-         * AlphabetTriangle class prints pyramid using alphabets
+         * Patterns.AlphabetTriangle class prints pyramid using alphabets
          *
          * EX -> if n = 3
          *     A
@@ -13,6 +15,7 @@ public class AlphabetTriangle {
          *   ABCBA
          */
 
+        System.out.print("ENTER A NUMBER -> " );
         Scanner userInput = new Scanner(System.in);
         int n = userInput.nextInt();
         char ch = 65;
