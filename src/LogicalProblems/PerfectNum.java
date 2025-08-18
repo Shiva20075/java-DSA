@@ -1,5 +1,4 @@
 package LogicalProblems;
-
 import java.util.Scanner;
 
 public class PerfectNum {
